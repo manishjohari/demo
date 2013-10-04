@@ -1,0 +1,5 @@
+<h1>Movies#new</h1>
+<%= form_for @movie, html: {mutipart: true} do |f|%>
+	<%= f.file_field :movie %>
+	<%= f.submit%>
+<%end%>
